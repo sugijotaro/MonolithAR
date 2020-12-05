@@ -1,0 +1,36 @@
+*{
+    text-align: center;
+}
+
+header{
+    border-bottom: 3px dashed lightslategrey;
+}
+
+footer{
+    border-top: 3px dashed lightslategrey;
+}
+
+main{
+    margin: 20px 0px;
+}
+
+table{
+    margin: auto;
+}
+
+th,td{
+    text-align: left;
+    font-size: large;
+}
+
+hr{
+    margin: 20px 30px;
+    border: 2px solid lightslategrey;
+    border-radius: 2px;
+}
+
+.pole {
+    padding: 8px;
+    background: lightslategrey;
+    border-radius: 40px;
+}
