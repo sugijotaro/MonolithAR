@@ -28,24 +28,33 @@
 		<h2>動作環境</h2>
 		<table>
 			<tbody>
-			<tr><th>対応端末　</th><td>iPhone6s以降</td></tr>
-			<tr><th>対応バージョン　</th><td>iOS12以降</td></tr>
-			<tr><th>対応アプリ　</th><td>Safari</td></tr>
+			<tr><th>対応OS　</th><td>iOS12以降</td><td>Android</td></tr>
+			<tr><th>対応端末　</th><td>iPhone6s以降</td><td><a href="https://developers.google.com/ar/discover/supported-devices#google_play_devices" target="_blank" rel="noopener noreferrer">ARCore対応端末</a></td></tr>
+			<tr><th>対応アプリ　</th><td>Safari</td><td>Chrome</td></tr>
 		</tbody>
 		</table>
 		<hr>
-		<h2>画像をタッチしてAR開始！</h2>
+		<h2>モノリスをARで見てみよう！</h2>
+		<p>対応端末では右下のボタンからARで見られるよ</p>
+
 		<p>撮った写真をSNSでシェアしよう！<br>
 		ハッシュタグは<a href="https://twitter.com/search?f=tweets&q=%23モノリスAR"><strong>#モノリスAR</strong></a></p>
+		<!--
 		<a rel="ar" href="Models/Monolith.usdz">
 			<img class="pole" src="Images/Monolith.png" width="400px">
 		</a>
+		-->
+		<model-viewer alt="Monolith" src="./Models/Monolith.glb" ios-src="./Models/Monolith.usdz" poster="./Images/Monolith.png" shadow-intensity="1" camera-controls auto-rotate ar>
+		</model-viewer>
+
 		<p>よかったらプルリクしてね！</p>
 		<a href="https://github.com/sugijotaro/MonolithAR">GitHub</a>
 	</main>
 	<footer>
 		<p>ver:1.4.10(FCFAF6_1_0.95)</p>
 	</footer>
+	<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+	</script>
 </body>
 
 </html>

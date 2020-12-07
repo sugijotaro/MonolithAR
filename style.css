@@ -34,3 +34,10 @@ hr{
     background: lightslategrey;
     border-radius: 40px;
 }
+
+model-viewer{
+    display: inline-block;
+    width: 600px;
+    height: 400px;
+
+}
