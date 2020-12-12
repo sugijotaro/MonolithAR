@@ -1,3 +1,4 @@
+window.onload = function(){
 var ta = document.getElementById('Terminal')
 var ut = navigator.userAgent;
 
@@ -10,4 +11,5 @@ if(ut.indexOf('iPhone') > 0 || ut.indexOf('iPod') > 0 || ut.indexOf('Android') >
     qr.style.display ="none";
 }else{
     qr.style.display ="block";
+}
 }
