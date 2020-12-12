@@ -6,6 +6,7 @@
 	<title>モノリスAR</title>
 	<link rel="icon" href="Images/favicon.ico">
 	<link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png">
+	<script type="text/javascript" src="script.js"></script>
 	<link rel="stylesheet" href="style.css" type="text/css">
 	<meta property="og:title" content="モノリスAR" />
 	<meta property="og:url" content="https://sugijotaro.github.io/MonolithAR/" />
@@ -22,13 +23,13 @@
 		<h1>モノリスAR</h1>
 	</header>
 	<main>
-		<h2>なにができるの？</h2>
+		<h2>なにができるの？🤔</h2>
 		<p>最近話題の謎の「モノリス」をAR上で出現させることができます！</p>
 		<a href="https://t.co/fpeB66pXVB">
 			<img src="Images/tweet.png" width="400px">
 		</a>
 		<hr>
-		<h2>動作環境</h2>
+		<h2>動作環境📱</h2>
 		<table>
 			<tbody>
 				<tr>
@@ -50,25 +51,33 @@
 			</tbody>
 		</table>
 		<hr>
-		<h2>モノリスをARで見てみよう！</h2>
+		<h2>モノリスをARで見てみよう！👀</h2>
 		<p>対応端末では右下のボタンからARで見られるよ</p>
 
 		<p>撮った写真をSNSでシェアしよう！<br>
-			ハッシュタグは<a href="https://twitter.com/search?f=tweets&q=%23モノリスAR"><strong>#モノリスAR</strong></a></p>
+			ハッシュタグは<a href="https://twitter.com/search?f=tweets&q=%23モノリスAR"><strong>#モノリスAR</strong></a>
+		</p>
 		<!--
 		<a rel="ar" href="Models/Monolith.usdz">
 			<img class="pole" src="Images/Monolith.png" width="400px">
 		</a>
 		-->
-		<model-viewer alt="Monolith" src="./Models/Monolith.glb" ios-src="./Models/Monolith.usdz"
-			poster="./Images/Monolith.png" shadow-intensity="1" camera-controls auto-rotate ar>
+		<model-viewer alt="Monolith" src="Models/Monolith.glb" ios-src="Models/Monolith.usdz"
+			poster="Images/Monolith.png" shadow-intensity="1" camera-controls auto-rotate ar>
 		</model-viewer>
 
+		<div id="qr">
+			<hr>
+			<h2>もしかしてPCからご覧になってますか？💻</h2>
+			<p>下のQRコードからスマートフォン上でご覧ください</p>
+			<img src="Images/qr.png">
+		</div>
+		<hr>
 		<p>よかったらプルリクしてね！</p>
 		<a href="https://github.com/sugijotaro/MonolithAR">GitHub</a>
 	</main>
 	<footer>
-		<p>ver:1.4.10(FCFAF6_1_0.95)</p>
+		<p></p>
 	</footer>
 	<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
 	</script>
