@@ -4,6 +4,8 @@
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
 	<meta charset="UTF-8">
 	<title>モノリスAR</title>
+	<link rel="icon" href="Images/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png">
 	<link rel="stylesheet" href="style.css" type="text/css">
 	<meta property="og:title" content="モノリスAR" />
 	<meta property="og:url" content="https://sugijotaro.github.io/MonolithAR/" />
@@ -14,6 +16,7 @@
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@sugijotaro" />
 </head>
+
 <body>
 	<header>
 		<h1>モノリスAR</h1>
@@ -28,23 +31,37 @@
 		<h2>動作環境</h2>
 		<table>
 			<tbody>
-			<tr><th>対応OS　</th><td>iOS12以降</td><td>Android</td></tr>
-			<tr><th>対応端末　</th><td>iPhone6s以降</td><td><a href="https://developers.google.com/ar/discover/supported-devices#google_play_devices" target="_blank" rel="noopener noreferrer">ARCore対応端末</a></td></tr>
-			<tr><th>対応アプリ　</th><td>Safari</td><td>Chrome</td></tr>
-		</tbody>
+				<tr>
+					<th>対応OS　</th>
+					<td>iOS12以降</td>
+					<td>Android</td>
+				</tr>
+				<tr>
+					<th>対応端末　</th>
+					<td>iPhone6s以降</td>
+					<td><a href="https://developers.google.com/ar/discover/supported-devices#google_play_devices"
+							target="_blank" rel="noopener noreferrer">ARCore対応端末</a></td>
+				</tr>
+				<tr>
+					<th>対応アプリ　</th>
+					<td>Safari</td>
+					<td>Chrome</td>
+				</tr>
+			</tbody>
 		</table>
 		<hr>
 		<h2>モノリスをARで見てみよう！</h2>
 		<p>対応端末では右下のボタンからARで見られるよ</p>
 
 		<p>撮った写真をSNSでシェアしよう！<br>
-		ハッシュタグは<a href="https://twitter.com/search?f=tweets&q=%23モノリスAR"><strong>#モノリスAR</strong></a></p>
+			ハッシュタグは<a href="https://twitter.com/search?f=tweets&q=%23モノリスAR"><strong>#モノリスAR</strong></a></p>
 		<!--
 		<a rel="ar" href="Models/Monolith.usdz">
 			<img class="pole" src="Images/Monolith.png" width="400px">
 		</a>
 		-->
-		<model-viewer alt="Monolith" src="./Models/Monolith.glb" ios-src="./Models/Monolith.usdz" poster="./Images/Monolith.png" shadow-intensity="1" camera-controls auto-rotate ar>
+		<model-viewer alt="Monolith" src="./Models/Monolith.glb" ios-src="./Models/Monolith.usdz"
+			poster="./Images/Monolith.png" shadow-intensity="1" camera-controls auto-rotate ar>
 		</model-viewer>
 
 		<p>よかったらプルリクしてね！</p>
